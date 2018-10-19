@@ -1,0 +1,15 @@
+{
+  "name": "puppeteer-experiments",
+  "version": "1.0.0",
+  "description": "Playing with Puppeteer to achieve something at least",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Keano Porcaro",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "puppeteer": "^1.9.0"
+  }
+}
