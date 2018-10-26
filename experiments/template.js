@@ -5,6 +5,7 @@
 const puppeteer = require('puppeteer');
 
 (async () => {
+	// This is only required on a system where there is no other account but root, obviously not recommended
 	const browser = await puppeteer.launch({args: ['--no-sandbox', '--disable-setuid-sandbox']});
 	const page = await browser.newPage();
 	await page.goto('https://example.com');
